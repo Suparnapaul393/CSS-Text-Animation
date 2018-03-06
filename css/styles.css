@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("file:///Users/apple/Desktop/My%20First%20Project/Text%20Animation%20CSS/img/background.jpg"); 
+	background-image: url("/img/background.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -12,7 +12,7 @@ h1{
 	font-size: 11em;
 	line-height: 1em;
 	text-transform: uppercase;
-	background-image: url("file:///Users/apple/Desktop/My%20First%20Project/Text%20Animation%20CSS/img/stripes.jpg");
+	background-image: url("/img/stripes.jpg");
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animate 10s linear infinite;
