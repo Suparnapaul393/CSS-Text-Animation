@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("file:///Users/apple/Desktop/My%20First%20Project/Text%20Animation%20CSS/img/background.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	margin-top: 150px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 11em;
+	line-height: 1em;
+	text-transform: uppercase;
+	background-image: url("file:///Users/apple/Desktop/My%20First%20Project/Text%20Animation%20CSS/img/stripes.jpg");
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 10s linear infinite;
+}
+@keyframes animate{
+	0%{
+		background-position: 0 0;
+	}
+	100%{
+		background-position: 100% 100%;
+	}
+}
+
