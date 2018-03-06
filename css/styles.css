@@ -12,7 +12,7 @@ h1{
 	font-size: 11em;
 	line-height: 1em;
 	text-transform: uppercase;
-	background-image: url("/img/stripes.jpg");
+	background-image: url("https://s14.postimg.org/62ef6vdrl/stripes.jpg");
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animate 10s linear infinite;
